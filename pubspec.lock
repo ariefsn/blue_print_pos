@@ -57,6 +57,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.17.0"
+  esc_pos_utils:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: "feature/papersize-100"
+      resolved-ref: "393a7c413aaac5921c07a93ebc16a3d67596fa05"
+      url: "https://github.com/ariefsn/esc_pos_utils"
+    source: git
+    version: "1.1.0"
   esc_pos_utils_plus:
     dependency: "direct main"
     description:
@@ -90,6 +99,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  gbk_codec:
+    dependency: transitive
+    description:
+      name: gbk_codec
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.4.0"
   hex:
     dependency: transitive
     description:

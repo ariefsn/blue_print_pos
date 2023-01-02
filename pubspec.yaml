@@ -3,13 +3,17 @@ description: Plugin to connecting bluetooth printer device, support on Android a
 version: 0.0.23
 homepage: https://github.com/iandis/blue_print_pos
 
-publish_to: 'none'
+publish_to: "none"
 
 environment:
   sdk: ">=2.16.0 <3.0.0"
   flutter: ">=1.20.0"
 
 dependencies:
+  esc_pos_utils:
+    git:
+      url: https://github.com/ariefsn/esc_pos_utils
+      ref: feature/papersize-100
   # Utilities for generate ByteBuffer
   esc_pos_utils_plus: ^2.0.1+6
   fluetooth:

@@ -1,6 +1,5 @@
 import 'dart:developer';
 import 'dart:io';
-import 'dart:typed_data';
 import 'dart:ui';
 
 import 'package:blue_print_pos/models/models.dart';
@@ -11,8 +10,9 @@ import 'package:flutter/services.dart';
 import 'package:image/image.dart' as img;
 import 'package:qr_flutter/qr_flutter.dart';
 
-export 'package:esc_pos_utils_plus/esc_pos_utils.dart' show PaperSize;
+export 'package:esc_pos_utils/esc_pos_utils.dart' show PaperSize;
 export 'package:fluetooth/fluetooth.dart' show FluetoothDevice;
+
 export 'models/models.dart';
 export 'receipt/receipt.dart';
 
@@ -81,7 +81,7 @@ class BluePrintPos {
   /// [textScaleFactor] the text scale factor (must be > 0 or null).
   /// note that this currently only works on Android.
   /// defaults to system's font settings.
-  /// 
+  ///
   /// [batchPrintOptions] to print each [ReceiptSectionText]'s content in batch.
   /// defaults to [BatchPrintOptions.full].
   Future<void> printReceiptText(
