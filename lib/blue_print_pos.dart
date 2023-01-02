@@ -4,7 +4,7 @@ import 'dart:ui';
 
 import 'package:blue_print_pos/models/models.dart';
 import 'package:blue_print_pos/receipt/receipt_section_text.dart';
-import 'package:esc_pos_utils_plus/esc_pos_utils.dart';
+import 'package:esc_pos_utils/esc_pos_utils.dart';
 import 'package:fluetooth/fluetooth.dart';
 import 'package:flutter/services.dart';
 import 'package:image/image.dart' as img;
